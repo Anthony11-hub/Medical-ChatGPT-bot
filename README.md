@@ -1,7 +1,7 @@
 # Medical Health Assistant API with GPT-3 Language Model
-This chatbot uses RESTful API that utilizes the GPT-3 language model to provide expert medical advice and assistance to users. The API is designed to help users self-diagnose various illnesses and medical conditions and provide expert advice on self-treatment options using home remedies.
+This chatbot uses RESTful API that utilizes the GPT-3 language model to provide expert medical advice and assistance to users. The chatbot is designed to help users self-diagnose various illnesses and medical conditions and provide expert advice on self-treatment options using home remedies.
 
-# Getting Started
+# Getting Started With the API
 To get started, you'll need to have an OpenAI API key. You can sign up for one on the OpenAI website.
 
 Once you have your API key, create a .env file in the root directory of the project and add your API key as follows: 
@@ -24,7 +24,7 @@ npm start
 
 The server should now be running on http://localhost:3000.
 
-# How to use
+# How to use 
 To use the API, send a POST request to the /message endpoint with a JSON payload containing a message for the AI assistant. The assistant will respond with a message containing expert advice on the topic of the query.
 
 For example, to send a message using curl, run:
@@ -41,5 +41,5 @@ The API will respond with a JSON payload containing the AI assistant's message:
 }
 ```
 
-
+To initiate a conversation with the chatbot,launch it in a web browser and type in your messages.
 
