@@ -1,10 +1,45 @@
-# AI-chatbot-using-OPENAI
-This is a chatbot that uses openai API to make better and more intelligent responses trained using GPT-3 language model. The chat-bot can be embedded on Websites for personal use.
+# Medical Health Assistant API with GPT-3 Language Model
+This chatbot uses RESTful API that utilizes the GPT-3 language model to provide expert medical advice and assistance to users. The API is designed to help users self-diagnose various illnesses and medical conditions and provide expert advice on self-treatment options using home remedies.
 
-# To install
-run npm install on the API folder to install all the required packages for the chatbot API to work.
-Also ensure you have an account with openai in order to get your own API key. The API key is put in the .env file giving us access to use openai's GPT-3
+# Getting Started
+To get started, you'll need to have an OpenAI API key. You can sign up for one on the OpenAI website.
 
-This chat-bot uses GPT-3 language model more specifically text-davinci-003 the same one used on openai's playground. 
+Once you have your API key, create a .env file in the root directory of the project and add your API key as follows: 
 
-shoutout to codingNexus on youtube for such an awesome in depth view of GPT-3 from a coding perspective
+``` 
+OPENAI_KEY=your_api_key_here 
+```
+
+Next, install the dependencies using npm:
+
+```bash
+npm install
+```
+
+To start the server, run:
+
+```bash
+npm start
+```
+
+The server should now be running on http://localhost:3000.
+
+# How to use
+To use the API, send a POST request to the /message endpoint with a JSON payload containing a message for the AI assistant. The assistant will respond with a message containing expert advice on the topic of the query.
+
+For example, to send a message using curl, run:
+
+```bash
+curl -X POST -H "Content-Type: application/json" -d '{"message": "What are some home remedies for a cold?"}' http://localhost:3000/message
+```
+
+The API will respond with a JSON payload containing the AI assistant's message:
+
+```bash
+{
+  "message": "Here are some home remedies that may help alleviate cold symptoms:\n- Drink plenty of fluids\n- Get plenty of rest\n- Use a humidifier\n- Take over-the-counter medications like acetaminophen or ibuprofen for pain and fever"
+}
+```
+
+
+
