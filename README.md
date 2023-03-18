@@ -1,4 +1,4 @@
-# Medical Health Assistant API with GPT-3 Language Model
+# Medical Health Assistant Chatbot with GPT-3 Language Model
 This chatbot uses RESTful API that utilizes the GPT-3 language model to provide expert medical advice and assistance to users. The chatbot is designed to help users self-diagnose various illnesses and medical conditions and provide expert advice on self-treatment options using home remedies.
 
 # Getting Started With the API
@@ -41,5 +41,5 @@ The API will respond with a JSON payload containing the AI assistant's message:
 }
 ```
 
-To initiate a conversation with the chatbot,launch it in a web browser and type in your messages.
+To initiate a conversation with the chatbot, launch it in a web browser and type in your messages.
 
