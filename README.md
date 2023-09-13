@@ -43,3 +43,8 @@ The API will respond with a JSON payload containing the AI assistant's message:
 
 To initiate a conversation with the chatbot, launch it in a web browser and type in your messages.
 
+# Dive Deeper into how the program works
+
+To dive deeper into understanding this program, I have crafted an article that talks about this program in depth. 
+Here is the link: https://medium.com/@anthonykm/building-an-ai-medical-health-assistant-with-openais-gpt-3-language-model-67b194ab28ab
+
